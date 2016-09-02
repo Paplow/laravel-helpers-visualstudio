@@ -18,7 +18,28 @@
 All helpers provided by the framework Laravel 5.x included.
 [Check the documentation](https://laravel.com/docs/5.3/helpers#available-methods)
 
+## About the extension
 
+all available snippets are officers laravel functions, with the comments used in official documentation, and are included:
+
+- Path helpers
+- Helpers array
+- String helpers
+- URL helpers
+- Miscellaneous helpers
+
+for example, start typing the function and soon you will see the description of what the function does.
+
+
+<img src="https://cdn.rawgit.com/rafa-acioly/laravel-snippets-visualstudio/master/images/array_add_example.png"/>
+
+<br>
+
+<img src="https://cdn.rawgit.com/rafa-acioly/laravel-snippets-visualstudio/master/images/database_path_example.png"/>
+
+<br>
+
+<img src="https://cdn.rawgit.com/rafa-acioly/laravel-snippets-visualstudio/master/images/csrf_example.png"/>
 
 ## Source
 
