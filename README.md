@@ -47,7 +47,7 @@ for example, start typing the function and soon you will see the description of 
 
 ## Source
 
-[Github](https://github.com/rafa-acioly/laravel-snippets-visualstudio)
+[Github](https://github.com/rafa-acioly/laravel-helpers-visualstudio)
 
 ## License
 
