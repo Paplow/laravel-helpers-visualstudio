@@ -30,15 +30,16 @@ all available snippets are officers laravel functions, with the comments used in
 
 for example, start typing the function and soon you will see the description of what the function does.
 
-
+[array_add function](https://laravel.com/docs/5.3/helpers#method-array-add)
 <img src="https://cdn.rawgit.com/rafa-acioly/laravel-helpers-visualstudio/master/images/array_add_example.png"/>
 
 <br>
 
+[database_path function](https://laravel.com/docs/5.3/helpers#method-database-path)
 <img src="https://cdn.rawgit.com/rafa-acioly/laravel-helpers-visualstudio/master/images/database_path_example.png"/>
 
 <br>
-
+[csrf_field and csrf_token](https://laravel.com/docs/5.3/helpers#method-csrf-field)
 <img src="https://cdn.rawgit.com/rafa-acioly/laravel-helpers-visualstudio/master/images/csrf_example.png"/>
 
 ## Source
