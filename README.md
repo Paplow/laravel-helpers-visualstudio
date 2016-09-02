@@ -10,7 +10,7 @@
 <h4 align="center">A set of Laravel Snippets for Visual Studio Code.</h4>
 
 <p align="center">  
-  <a href="https://github.com/rafaelstz/magento-snippets-visualstudio/releases"><img src="https://img.shields.io/github/release/rafa-acioly/laravel-snippets-visualstudio.svg" alt="Release"></a>       
+  <a href="https://github.com/rafa-acioly/laravel-helpers-visualstudio/releases"><img src="https://img.shields.io/github/release/rafa-acioly/laravel-helpers-visualstudio.svg" alt="Release"></a>       
 </p>
 
 ## Available Snippets
