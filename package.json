@@ -6,8 +6,8 @@
         "name": "Rafael Acioly",
         "email": "aciolyr@gmail.com"
     },
-    "description": "A set of Laravel Snippets for Visual Studio Code",
-    "version": "0.1.0",
+    "description": "A set of Laravel Helper Snippets for Visual Studio Code",
+    "version": "0.2.0",
     "license": "See License section in README.md",
     "engines": {
         "vscode": "*"
