@@ -1,36 +1,36 @@
 {
-    "name": "laravel-helpers",
-    "displayName": "Laravel Helpers",
-    "publisher": "rafa-acioly",
-    "author": {
-        "name": "Rafael Acioly",
-        "email": "aciolyr@gmail.com"
-    },
-    "description": "A set of Laravel Helper Snippets for Visual Studio Code",
-    "version": "0.2.0",
-    "license": "See License section in README.md",
-    "engines": {
-        "vscode": "*"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "php",
-                "path": "./snippets/laravel.json"
-            }
-        ]
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/rafa-acioly/laravel-snippets-helpers-visualstudio"
-    },
-    "bugs": "https://github.com/rafa-acioly/laravel-snippets-helpers-visualstudio/issues",
-    "galleryBanner": {
-        "color": "rgb(238, 110, 115)",
-        "theme": "light"
-    },
-    "icon": "images/icon.png"
+  "name": "laravel-helpers",
+  "displayName": "Laravel Helpers",
+  "publisher": "rafa-acioly",
+  "author": {
+    "name": "Rafael Acioly",
+    "email": "aciolyr@gmail.com"
+  },
+  "description": "A set of Laravel Helper Snippets for Visual Studio Code",
+  "version": "0.2.1",
+  "license": "See License section in README.md",
+  "engines": {
+    "vscode": "*"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "php",
+        "path": "./snippets/laravel.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rafa-acioly/laravel-snippets-helpers-visualstudio"
+  },
+  "bugs": "https://github.com/rafa-acioly/laravel-snippets-helpers-visualstudio/issues",
+  "galleryBanner": {
+    "color": "rgb(238, 110, 115)",
+    "theme": "light"
+  },
+  "icon": "images/icon.png"
 }
