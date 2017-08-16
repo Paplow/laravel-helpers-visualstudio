@@ -257,7 +257,7 @@
 	// URLs
 	"action": {
 		"prefix": "action",
-		"body": "action('${1:HomeController}@${2:getIndex}')",
+		"body": "action('${1:Controller}@${2:method}')",
 		"description": "Generates a URL for the given controller action."
 	},
 	"asset": {
@@ -267,7 +267,7 @@
 	},
 	"secure asset": {
 		"prefix": "secure_asset",
-		"body": "secure_asset('${1:string}', ${2:$title}, ${3:attributes = []})",
+		"body": "secure_asset('${1:string}', ${2:$title}, ${3:array})",
 		"description": "Generate a URL for an asset using HTTPS."
 	},
 	"route": {
@@ -275,28 +275,17 @@
 		"body": "route('${1:routeName}', ${2:array})",
 		"description": "Generates a URL for the given named route."
 	},
+	"secure url": {
+		"prefix": "secure_url",
+		"body": "secure_url('${1:routeName}', ${2:array})",
+		"description": "Generates a URL for the given named route."
+	},
 	"url": {
 		"prefix": "url",
-		"body": "url('${1:string}', ${2})",
-		"description": "Generates a fully qualified URL to the given path."
-	},
-	"url full": {
-		"prefix": "urlfull",
-		"body": "url()->full()",
-		"description": "Get the full URL."
-	},
-	"url current": {
-		"prefix": "urlcurrent",
-		"body": "url()->current()",
-		"description": "Get the current URL."
-	},
-	"url previous": {
-		"prefix": "urlprevious",
-		"body": "url()->previous()",
-		"description": "Get the previous URL"
+		"body": "url('${1:string}', ${2:array})",
+		"description": "Generates a fully qualified HTTPS URL to the given path."
 	},
 
-	// Miscellaneous
 	"abort": {
 		"prefix": "abort",
 		"body": "abort(${1:HTTP code}, ${2:message})",
@@ -326,6 +315,11 @@
 		"prefix": "bcrypt",
 		"body": "bcrypt('${1:my-secret-password')",
 		"description": "Hashes the given value using Bcrypt."
+	},
+	"cache": {
+		"prefix": "cache",
+		"body": "cache('${1:key}', '${2:value}')",
+		"description": "Function may be used to get values from the cache. If the given key does not exist in the cache, an optional default value will be returned"
 	},
 	"collect": {
 		"prefix": "collect",
@@ -372,6 +366,16 @@
 		"body": "factory(${1:App\\User::class})${2:->make()}",
 		"description": "Creates a model factory builder for a given class, name, and amount."
 	},
+	"info": {
+		"prefix": "info",
+		"body": "info(${1:string}, ${2:array})",
+		"description": "Will write information to the log."
+	},
+	"logger": {
+		"prefix": "logger",
+		"body": "logger(${1:string}, ${2:array})",
+		"description": "Can be used to write a debug level message to the log."
+	},
 	"method field": {
 		"prefix": "method_field",
 		"body": "method_field(${1:string})",
@@ -396,6 +400,11 @@
 		"prefix": "response",
 		"body": "response(${1:Hello world}, ${2:HTTP code}, ${3:$headers})",
 		"description": "Creates a response instance or obtains an instance of the response factory."
+	},
+	"retry": {
+		"prefix": "retry",
+		"body": "retry(${1:integer}, function(${2:\\$key}, ${3:\\$value}){${4}}))",
+		"description": "attempts to execute the given callback until the given maximum attempt threshold is met. If the callback does not throw an exception, it's return value will be returned. If the callback throws an exception, it will automatically be retried. If the maximum attempt count is exceeded, the exception will be thrown."
 	},
 	"session": {
 		"prefix": "session",
