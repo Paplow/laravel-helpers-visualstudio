@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-    <img src="https://cdn.rawgit.com/rafa-acioly/laravel-snippets-visualstudio/master/images/icon.png" alt="Laravel Snippets" width="128" height="128">
+    <img src="https://raw.githubusercontent.com/rafa-acioly/laravel-helpers-visualstudio/master/images/icon.png" alt="Laravel Snippets" width="128" height="128">
   <br>
   VS Code - Laravel Helpers Snippets
   <br>
@@ -15,12 +15,12 @@
 
 ## Available Snippets
 
-All helpers provided by the framework Laravel 5.x included.
+All helpers provided by the framework Laravel 5.x are included.
 [Check the documentation](https://laravel.com/docs/5.3/helpers#available-methods)
 
 ## About the extension
 
-all available snippets are officers laravel functions, with the comments used in official documentation, and are included:
+All available snippets are official laravel functions, with the comments used in official documentation, and are included:
 
 - Path helpers
 - Helpers array
@@ -28,15 +28,15 @@ all available snippets are officers laravel functions, with the comments used in
 - URL helpers
 - Miscellaneous helpers
 
-for example, start typing the function and soon you will see the description of what the function does.
+For example, start typing the function and soon you will see the description of what the function does.
 
-[array_add function](https://laravel.com/docs/5.3/helpers#method-array-add) 
+[array_add function](https://laravel.com/docs/5.3/helpers#method-array-add)
 <br>
 <img src="https://cdn.rawgit.com/rafa-acioly/laravel-helpers-visualstudio/master/images/array_add_example.png"/>
 
 <br>
 
-[database_path function](https://laravel.com/docs/5.3/helpers#method-database-path) 
+[database_path function](https://laravel.com/docs/5.3/helpers#method-database-path)
 <br>
 <img src="https://cdn.rawgit.com/rafa-acioly/laravel-helpers-visualstudio/master/images/database_path_example.png"/>
 
